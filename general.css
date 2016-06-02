@@ -1,0 +1,307 @@
+/*#########################################################################################################*/
+/*General & Common  Styles*/
+/*#########################################################################################################*/
+/*===============================*/
+/*margin Padding Zero*/
+/*===============================*/
+html{
+    height: 100%;
+    width: 100%;
+    padding:0;
+    margin:0;
+}
+/*===============================*/
+/*Margin*/
+/*===============================*/
+.margin5{
+    margin: 5px;
+}
+.margin10{
+    margin: 10px;
+}
+.margin15{
+    margin: 15px;
+}
+.margin20{
+    margin: 20px;
+}
+.margin25{
+    margin: 25px;
+}
+.margin30{
+    margin: 30px;
+}
+.margin35{
+    margin: 35px;
+}
+.margin40{
+    margin: 40px;
+}
+.margin45{
+    margin: 45px;
+}
+.margin50{
+    margin: 50px;
+}
+.marginTop3{
+    margin-top: 3px;
+}
+.marginTop5{
+    margin-top: 5px;
+}
+.marginTop6{
+    margin-top: 6px;
+}
+.marginTop10{
+    margin-top: 10px;
+}
+.marginTop15{
+    margin-top: 15px;
+}
+.marginTop20{
+    margin-top: 20px;
+}
+.marginTop25{
+    margin-top: 25px;
+}
+.marginTop30{
+    margin-top: 30px;
+}
+.marginTop40{
+    margin-top: 40px;
+}
+.marginTop50{
+    margin-top: 50px;
+}
+.marginTop60{
+    margin-top: 60px;
+}
+.marginTop70{
+    margin-top: 70px;
+}
+.marginTop80{
+    margin-top: 80px;
+}
+.marginTop90{
+    margin-top: 80px;
+}
+.marginTop100{
+    margin-top: 100px;
+}
+.marginTop200{
+    margin-top: 200px;
+}
+.marginLeft5{
+    margin-left: 5px;
+}
+.marginLeft10{
+    margin-left: 10px;
+}
+.marginLeft15{
+    margin-left: 15px;
+}
+.marginLeft20{
+    margin-left: 20px;
+}
+.marginLeft30{
+    margin-left: 30px;
+}
+.marginLeft40{
+    margin-left: 40px;
+}
+.marginRight5{
+    margin-right: 5px;
+}
+.marginRight10{
+    margin-right: 10px;
+}
+.marginRight15{
+    margin-right: 15px;
+}
+.marginRight20{
+    margin-right: 20px;
+}
+.marginBottom5{
+    margin-bottom: 5px;
+}
+.marginBottom10{
+    margin-bottom: 10px;
+}
+.marginBottom15{
+    margin-bottom: 15px;
+}
+.marginBottom20{
+    margin-bottom: 20px;
+}
+/*===============================*/
+/*Padding*/
+/*===============================*/
+.paddingZero{
+    padding: 0;
+}
+.padding5{
+    padding: 5px 5px 5px 5px;
+}
+.padding10{
+    padding: 10px;
+}
+.padding20{
+    padding: 20px;
+}
+.padding25{
+    padding: 25px;
+}
+.padding30{
+    padding: 30px;
+}
+.paddingTop5{
+    padding-top: 5px;
+}
+.paddingTop10{
+    padding-top: 10px;
+}
+.paddingTop15{
+    padding-top: 15px;
+}
+.paddingTop20{
+    padding-top: 20px;
+}
+.paddingTop30{
+    padding-top: 30px;
+}
+.paddingTop40{
+    padding-top: 40px;
+}
+.paddingTop50{
+    padding-top: 50px;
+}
+.paddingTop60{
+    padding-top: 60px;
+}
+.paddingTop70{
+    padding-top: 70px;
+}
+.paddingTop80{
+    padding-top: 80px;
+}
+.paddingTop90{
+    padding-top: 90px;
+}
+.paddingLeft5{
+    padding-left: 5px;
+}
+.paddingLeft10{
+    padding-left: 10px;
+}
+.paddingLeftRight{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.floatLeft{
+    float: left;
+}
+.floatRight{
+    float: right;
+}
+/*===============================*/
+/*Align*/
+/*===============================*/
+.verticalAlignTop{
+    vertical-align: top;
+}
+.verticalAlignMiddle{
+    vertical-align: middle;
+}
+.verticalAlignBaseline{
+    vertical-align: baseline;
+}
+/*===============================*/
+/*Border Black*/
+/*===============================*/
+.borderBlack1{
+    border:1px solid #000;
+}
+.borderTopBlack1{
+    border-top: 1px solid #000;
+}
+.borderRightBlack1{
+    border-right:1px solid #000;
+}
+.borderBottomBlack1{
+
+    border-bottom: 1px solid #000;
+}
+.borderLeftBlack1{
+    border-left: 1px solid #000;
+}
+/*===============================*/
+/*Border Radius*/
+/*===============================*/
+.borderRadius0{
+    border-radius:0;
+}
+.borderRadius5{
+    border-radius:5px;
+}
+.borderRadius10{
+    border-radius: 10px;
+}
+.borderTopCornerRadius7{
+    border-radius: 7px 7px 0px 0px;
+}
+/*===============================*/
+/*Text Align*/
+/*===============================*/
+.textAlignCenter{
+    text-align: center;
+}
+.textAlignLeft{
+    text-align: left;
+}
+.textAlignRight{
+    text-align: right;
+}
+/*===============================*/
+/*Font*/
+/*===============================*/
+.fontSmall{
+    font-size: small;
+}
+.fontMedium{
+    font-size: medium;
+}
+.fontLarge{
+    font-size: large;
+}
+.fontXLarge{
+    font-size: x-large;
+}
+.font50px{
+    font-size: 50px;
+}
+.font10px{
+    font-size: 10px;
+}
+.font15px{
+    font-size: 15px;
+}
+.font17px{
+    font-size: 17px;
+}
+.font20px{
+    font-size: 20px;
+}
+.fontWeightBold{
+    font-weight: bold;
+}
+/*===============================*/
+/*List Style*/
+/*===============================*/
+.listStyleSquare li{
+    list-style: square;
+}
+.listStyleNone li{
+    list-style: none;
+}
+
+

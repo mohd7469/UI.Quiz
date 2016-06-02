@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>Quiz | App</title>
+    <link rel="stylesheet" href="./bootstrap/css/style.css"/>
+    <link rel="stylesheet" href="./bootstrap/css/font.css"/>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="general.css"/>
+    <link href="bootstrap/css/simple-sidebar.css" rel="stylesheet">
+    <link href="bootstrap/css/buttons.css" rel="stylesheet">
+</head>
+<body>
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="javascript:">PanaCloud Guru</a>
+    </div>
+    <!--/.navbar-header -->
+
+    <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+            <a href="javascript:" class="dropdown-toggle" data-toggle="dropdown">
+                <span>Username</span>
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="javascript:">My Courses</a></li>
+                <li><a href="javascript:">Courses</a></li>
+                <li><a href="javascript:">Quizzes</a></li>
+                <li class="divider"></li>
+                <li><a href="javascript:">Logout</a></li>
+            </ul>
+        </li>
+        <li><a href="javascript:"></a></li>
+    </ul>
+    <!--/.nav navbar-nav navbar-right -->
+</nav>
+<!--/.navbar navbar-inverse navbar-fixed-top -->
+
+<hr/>
+
+<div id="wrapper">
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="javascript:">
+                    Course Name
+                </a>
+            </li>
+            <li>
+                <a href="javascript:">Quiz 1</a>
+            </li>
+            <li>
+                <a href="javascript:">Quiz 2</a>
+            </li>
+            <li>
+                <a href="javascript:">Quiz 3</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <a id="menu-toggle" href="#menu-toggle" class="button button-glow">
+        Toggle Menu
+    </a>
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Welcome to Course-Name</h1>
+
+                    <div class="margin30">
+                        <div>
+                            <div>
+                                <div class="fontWeightBold">Quiz Title : Android Chapter 1 Quiz</div>
+                                <div class="fontWeightBold marginTop10">Description :</div>
+                                <div class="marginTop10">
+                                    You can select more than one option i.e: a, b, and c as the correct answer
+                                </div>
+                                <div class="fontWeightBold marginTop10">
+                                    <code>Important Note:</code>
+                                </div>
+                                <div class="fontWeightBold marginTop10 ">Passing Score : 70</div>
+                                <div class="fontWeightBold marginTop10 ">Quiz Duration : 55 Minutes</div>
+                                <div class="fontWeightBold marginTop10 ">No. of Attempts Allowed : 2</div>
+                                <br>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-info btn-transparent">Continue</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+
+<script src="bootstrap/js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script>
+    $("#menu-toggle").click(function (e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+</script>
+
+</body>
+</html>
